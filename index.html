@@ -1,22 +1,71 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
-    <title>negtive summer</title>
+    <title>June's class website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
 
-
-    <p>
-      index
-        <li><a href="http://lihuayu.xyz/interview/" target="_blank">interview</a></li>
+   <div class="mantou">
+    <img src="img/IMG_7605.PNG" width="100%">
 
 
-
+      <p class="all about" onclick="myFunction()">
+       about
       </p>
 
 
+    <a href="">
+      <p class="all article">
+       article
+      </p>
+    </a>
+
+     <a href="">
+       <p class="all secret">
+        secret
+       </p>
+     </a>
+
+     <a href="">
+       <p class="all screensaver">
+        screensaver
+       </p>
+     </a>
+
+     <a href="">
+       <p class="all final">
+        final
+       </p>
+     </a>
+
+     <a href="">
+       <p class="all summerdiary">
+        summer diary
+       </p>
+     </a>
+
+    </div>
+
+    <div id="cont">
+      This is June‘s summer class website.
 
 
+    </div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("cont");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+    </script>
 
       </body>
