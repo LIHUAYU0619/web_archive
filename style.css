@@ -13,7 +13,8 @@ a{
 }
 
 a:hover{
-  background-color: pink;
+  background-color: lightblue;
+  color:black;
 }
 
 ul{
@@ -30,8 +31,8 @@ ul{
 
 .all{
   font-size: 18px;
-  background-color: pink;
-  border: 1px dotted red;
+  /* background-color: pink; */
+  /* border: 1px dotted red; */
   padding: 3px 5px;
   color: white;
   position:absolute;
@@ -40,40 +41,60 @@ ul{
   letter-spacing: 0.4px;
 }
 
+
+
 .all:hover{
   /* border: 1px dashed red; */
+  color: black;
 
 }
 
 .about{
-  top:17%;
-  left:31.3%;
+  /* top:17%; */
+  /* left:31.3%; */
+  top:13%;
+  left:28%;
 }
 
 
 .article{
-  top:16%;
-  left:57%;
+  /* top:16%;
+  left:57%; */
+
+  top:12%;
+  left:58%;
 }
 
 .secret{
-  top:34%;
-  left:75%;
+  /* top:34%;
+  left:75%; */
+
+  top:33%;
+  left:79%;
 }
 
 .screensaver{
-  top:62%;
+  /* top:62%; */
+  /* left:64%; */
+
+  top:67%;
   left:64%;
 }
 
 .final{
-  top:68%;
-  left:33%;
+  /* top:68%;
+  left:33%; */
+
+  top:74%;
+  left:31%;
 }
 
 .summerdiary{
+  /* top:39%;
+  left:9%; */
+
   top:39%;
-  left:9%;
+  left:7%;
   /* border-radius: 100px / 80px;
   padding: 6px 10px; */
 }
@@ -112,8 +133,8 @@ ul{
   font-size: 18px;
   position:absolute;
   background-color: orange;
-  top:8%;
-  left: 60%;
+  top:3%;
+  left: 54%;
   border: 1px dotted red;
   /*  */
   height: 200px;
