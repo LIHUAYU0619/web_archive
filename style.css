@@ -13,8 +13,8 @@ a{
 }
 
 a:hover{
-  background-color: lightblue;
   color:black;
+  background-color: lightblue;
 }
 
 ul{
@@ -50,43 +50,43 @@ ul{
 }
 
 .about{
-  /* top:17%; */
-  /* left:31.3%; */
-  top:13%;
-  left:28%;
+  top:17%;
+  left:31.3%;
+  /* top:13%;
+  left:28%; */
 }
 
 
 .article{
-  /* top:16%;
-  left:57%; */
+  top:16%;
+  left:57%;
 
-  top:12%;
-  left:58%;
+  /* top:12%; */
+  /* left:58%; */
 }
 
 .secret{
-  /* top:34%;
-  left:75%; */
+  top:34%;
+  left:75%;
 
-  top:33%;
-  left:79%;
+  /* top:33%;
+  left:79%; */
 }
 
 .screensaver{
-  /* top:62%; */
-  /* left:64%; */
-
-  top:67%;
+  top:62%;
   left:64%;
+
+  /* top:67%;
+  left:64%; */
 }
 
 .final{
-  /* top:68%;
-  left:33%; */
+  top:68%;
+  left:33%;
 
-  top:74%;
-  left:31%;
+  /* top:74%;
+  left:31%; */
 }
 
 .summerdiary{
@@ -94,7 +94,7 @@ ul{
   left:9%; */
 
   top:39%;
-  left:7%;
+  left:8.5%;
   /* border-radius: 100px / 80px;
   padding: 6px 10px; */
 }
@@ -155,4 +155,36 @@ ul{
   /* display: flex; */
   top:25%;
   line-height: 25px;
+}
+
+
+#diary{
+  color: black;
+  font-size: 18px;
+  position:absolute;
+  background-color: lightblue;
+  bottom:5%;
+  left: 7%;
+  border: 1px dotted red;
+  /*  */
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  /*  */
+  justify-content:center;
+  align-items: center;
+  vertical-align: middle;
+  box-shadow: 10px 10px;
+  transform: skew(20deg);
+  display: none;
+}
+
+.cake{
+  position: absolute;
+  top:20%;
+  left:20%;
+}
+
+.cake:hover{
+  background-color: #ff80aa;
 }
