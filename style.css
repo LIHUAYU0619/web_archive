@@ -1,12 +1,4 @@
 
-
-html{
-  /* background: pink; */
-  background: lightgreen;
-  font-family:arial;
-}
-
-
 a{
   text-decoration: none;
   color: white;
@@ -39,6 +31,7 @@ ul{
   max-width: 200;
   cursor:pointer;
   letter-spacing: 0.4px;
+  animation: flicker 1s ease-in-out alternate infinite;
 }
 
 
@@ -98,6 +91,51 @@ ul{
   /* border-radius: 100px / 80px;
   padding: 6px 10px; */
 }
+
+.reading{
+  top:48%;
+  left:53%;
+
+}
+
+@keyframes flicker {
+    0% {
+        transform: skewX(5deg);
+        box-shadow:
+            0 0 10px rgba(orange, 0.2),
+            0 0 20px rgba(orange, 0.2),
+            0 0 60px rgba(orange, 0.2),
+            0 0 80px rgba(orange, 0.2) }
+    25% {
+        transform: skewX(-5deg);
+        box-shadow:
+            0 0 10px rgba(orange, 0.5),
+            0 0 20px rgba(orange, 0.5),
+            0 0 60px rgba(orange, 0.5),
+            0 0 80px rgba(orange, 0.5) }
+    50% {
+        transform: skewX(10deg);
+        box-shadow:
+            0 0 10px rgba(orange, 0.3),
+            0 0 20px rgba(orange, 0.3),
+            0 0 60px rgba(orange, 0.3),
+            0 0 80px rgba(orange, 0.3) }
+    75% {
+        transform: skewX(-10deg);
+        box-shadow:
+            0 0 10px rgba(orange, 0.4),
+            0 0 20px rgba(orange, 0.4),
+            0 0 60px rgba(orange, 0.4),
+            0 0 80px rgba(orange, 0.4) }
+    100% {
+        transform: skewX(5deg);
+        box-shadow:
+            0 0 10px rgba(orange, 0.5),
+            0 0 20px rgba(orange, 0.5),
+            0 0 60px rgba(orange, 0.5),
+            0 0 80px rgba(orange, 0.5) }
+}
+
 
 #cont{
   position:absolute;
@@ -187,4 +225,44 @@ ul{
 
 .cake:hover{
   background-color: #ff80aa;
+}
+
+/* reading */
+
+.froest{
+  width:120%;
+  z-index: -999;
+  position:static;
+}
+
+.close {
+  cursor: pointer;
+  position:absolute;
+  top: 50%;
+  right: 20%;
+  /* padding: 12px 16px; */
+  /* transform: translate(0%, -50%); */
+}
+
+.box{
+
+  position: absolute;
+  top:20%;
+  left:40%;
+  padding:40px;
+  margin: 30px;
+}
+
+
+.box1{
+  width:200px;
+ border: 1px solid red;
+ /* margin-top: -1px; /* Prevent double borders */ */
+ background-color: #f6f6f6;
+ /* text-decoration: none; */
+ font-size: 18px;
+ color: black;
+ padding:20px;
+ /* margin: 30px; */
+ background-color: yellow;
 }
