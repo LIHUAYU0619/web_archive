@@ -18,9 +18,10 @@
 
 <body>
 
-  <div class="mantou">
-    <img src="img/IMG_7605.PNG" width="100%">
 
+  <div class="mantou">
+    <div class="big">
+      <img src="img/IMG_7605.PNG" width="100%"></div>
 
     <p class="all about">
       about
@@ -30,31 +31,25 @@
       article
     </p>
 
-    <a href="">
       <p class="all secret">
-        secret
+        projects
       </p>
-    </a>
 
     <a href="">
       <p class="all screensaver">
-        screensaver
-      </p>
-    </a>
-
-    <a href="">
-      <p class="all final">
         final
       </p>
     </a>
 
-    <p class="all summerdiary">
-      excersise
+    <p class="all final">
+      exercise
     </p>
+    </a>
 
-    <p class="all reading">
+    <p class="all summerdiary">
       resource
     </p>
+
 
   </div>
 
@@ -65,27 +60,36 @@
 
   <div id="article">
     <div class="article-1">
-      <span class="web-2">
-        <ul>
-          <li><a href="http://lihuayu.xyz/HTML/" target="_blank">Part 1 - HTML</a></li>
-          <li><a href="">Part 2 - CSS</a></li>
-          <li><a href="">Part 3 - Variants</a></li>
-        </ul>
-      </span>
+      <ul>
+        <li><a href="http://lihuayu.xyz/HTML/" target="_blank">Part 1 - HTML</a></li>
+        <li><a href="">Part 2 - CSS</a></li>
+        <li><a href="">Part 3 - Variants</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div id="pro">
+    <div class="pro-1">
+      <ul>
+        <li><a href="">a secret</a></li>
+        <li><a href="">screensaver</a></li>
+      </ul>
     </div>
   </div>
 
 
 
   <div id="diary">
-
-    <a href="flexbox/index.html" class="flexbox" target="_blank">
-      flexbox
-    </a>
-
-    <a href="https://lihuayu.xyz/happybirthday/" target="_blank" class="cake">🎂Happy Birthday!</a>
-
+   <div class="ex">
+    <ul>
+      <li><a href="flexbox/index.html" class="flexbox" target="_blank">flexbox</a></li>
+      <li><a href="https://lihuayu.xyz/happybirthday/" target="_blank" class="cake">Happy Birthday!</a></li>
+    </ul>
   </div>
+  </div>
+
+
 
   <div id="re">
     <div class="resource">
@@ -114,16 +118,23 @@
       });
     });
 
+    // pro
+    $(document).ready(function() {
+      $(".secret").click(function() {
+        $("#pro").toggle();
+      });
+    });
+
     // summerdiary
     $(document).ready(function() {
-      $(".summerdiary").click(function() {
+      $(".final").click(function() {
         $("#diary").toggle();
       });
     });
 
     // re
     $(document).ready(function() {
-      $(".reading").click(function() {
+      $(".summerdiary").click(function() {
         $("#re").toggle();
       });
     });
