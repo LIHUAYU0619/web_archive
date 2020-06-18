@@ -13,7 +13,13 @@ body {
   /* overflow-x: scroll; */
   /* background: linear-gradient(80deg, #000000 0%, #172efe 32%, #742ce8 20%); */
   /* background: linear-gradient(grey 0%, white 10%, black 15%); */
-  background-color:rgb(150, 150, 150);
+  /* background-color:rgb(129, 130, 131); */
+  background-image: url('img/Stranger_Than_Paradise_1984_4.jpg');
+  background-size: 120%;
+  /* background-attachment: scroll; */
+  background-size: cover;
+  background-position: 25% 75%;
+  /* background-repeat:no-repeat; */
 }
 
 hr.dot-line{
@@ -96,8 +102,9 @@ h2{
   border: 1.5px dotted black;
   padding:10px 20px;
   overflow-y: scroll;
+  right:-140%;
   /* margin: 10px; */
-  transform: rotate(7deg);
+  /* transform: rotate(7deg); */
 
 }
 
