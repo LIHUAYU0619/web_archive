@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  height:200vh;
+  width: 400vw;
+  /* height: 200vh; */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* background-color: #bfbfbf; */
+  background: repeating-radial-gradient(#bfbfbf 0%, white 10%, rgb(162, 129, 255) 20%);
+  background-size: 100% 8%;
+}
+
+p {
+  font-size: 30px;
+  /* position: absolute; */
+}
+
+.new span{
+  color:rgb(218, 110, 28);
+}
+
+.special {
+  color: rgba(138, 246, 42, 1);
+  font-style: italic;
+}
+
+.special:hover{
+  color:rgba(14, 136, 252, 0.83);
+}
+
+.special:hover .one{
+  opacity: 1;
+  display: block;
+}
+
+.img{
+  /* position:absolute; */
+  position: relative;
+  top:20%;
+  left:10%;
+  /* display: none; */
+  /* opacity: 0; */
+  /* transition: opacity 1s ease; */
+  display: none;
+}
+
+.one{
+  width:300px;
+}
+
+.two{
+  font-size: 100px;
+  display: none;
+  position: absolute;
+  bottom:0%;
+  left:50%;
+
+}
+
+.special:hover .two{
+  display: inline-block;
+}
+
+.object{
+  background: rgb(73, 162, 240);
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+  position: absolute;
+  top:80%;
+  left:80%;
+  /* transition: all 2s ease; */
+  transition: border-radius 2s ease,
+              background 3s ease,
+              transform 1s ease;
+}
+
+.object:hover{
+  border-radius: 0;
+  background-color: yellow;
+  /* transition: 1s ease; */
+  transform:rotate(20deg) scale(10);
+}
