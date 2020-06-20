@@ -3,41 +3,84 @@
 }
 
 body {
-  min-height: 100vh;
-  height:200vh;
-  width: 400vw;
-  /* height: 200vh; */
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
-  /* background-color: #bfbfbf; */
-  background: repeating-radial-gradient(#bfbfbf 0%, white 10%, rgb(162, 129, 255) 20%);
-  background-size: 100% 8%;
+  height:100vh;
+  width:100vw;
+  padding: 0;
+  margin: 0;
+  /* background */
+
+  /* background: repeating-radial-gradient(#bfbfbf 0%, white 10%, rgb(162, 129, 255) 20%);
+  background-size: 100% 8%; */
+
 }
 
-p {
-  font-size: 30px;
-  /* position: absolute; */
+.container{
+  display:flex;
+  height:100%;
+  flex-flow: row wrap;
+  padding: 10px;
+  justify-content: center;
 }
 
-.new span{
+.box{
+  width:20em;
+  height:30em;
+  margin:2em;
+  /* background: repeating-radial-gradient(#bfbfbf 0%, white 10%, rgb(162, 129, 255) 20%); */
+
+  background: radial-gradient(#bfbfbf, white, rgb(162, 129, 255));
+  display:flex;
+  border-radius: 5%;
+  border: 1px solid lightgrey;
+  animation: gradient 60s linear infinite;
+  background-size:30% 60%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position:100% 2000%;
+  }
+  50% {
+    background-position:20% 20%;
+  }
+  100% {
+    background-position:100% 2000%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+/* .new span{ */
   color:rgb(218, 110, 28);
 }
 
-.special {
+/* .special { */
   color: rgba(138, 246, 42, 1);
   font-style: italic;
 }
 
-.special:hover{
+/* .special:hover{ */
   color:rgba(14, 136, 252, 0.83);
 }
 
-.special:hover .one{
+/* .special:hover .one{ */
   opacity: 1;
   display: block;
 }
 
-.img{
+/* .img{ */
   /* position:absolute; */
   position: relative;
   top:20%;
@@ -48,11 +91,11 @@ p {
   display: none;
 }
 
-.one{
+/* .one{ */
   width:300px;
 }
 
-.two{
+/* .two{ */
   font-size: 100px;
   display: none;
   position: absolute;
@@ -61,11 +104,11 @@ p {
 
 }
 
-.special:hover .two{
+/* .special:hover .two{ */
   display: inline-block;
 }
 
-.object{
+/* .object{ */
   background: rgb(73, 162, 240);
   width:100px;
   height:100px;
@@ -79,7 +122,7 @@ p {
               transform 1s ease;
 }
 
-.object:hover{
+/* .object:hover{ */
   border-radius: 0;
   background-color: yellow;
   /* transition: 1s ease; */
