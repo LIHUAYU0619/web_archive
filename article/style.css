@@ -70,6 +70,7 @@ h2{
 .Jarmusch{
   width:100px;
   margin-right: 10px;
+  position:20%;
 }
 
 
@@ -102,7 +103,7 @@ h2{
   /* position: relative; */
   position: absolute;
   /* top:9%; */
-  width:30%;
+  width:25%;
   height:100%;
   /* background-color: white; */
   border: 1.5px dotted black;
