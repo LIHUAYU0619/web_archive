@@ -48,6 +48,23 @@ body{
   color:rgb(237, 138, 23);
 }
 
+.box{
+  background: rgb(59, 195, 63);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-box{
+  background: rgb(32, 76, 221);
+  padding:20px;
+  margin:20px;
+  max-width:300px;
+  max-height:100px;
+  overflow-x: scroll;
+  /* overflow-y:visible; */
+}
+
 @media screen and (max-width: 800px) {
   .middle{
     flex-direction: column;
@@ -83,5 +100,8 @@ body{
     width:700px;
     height:534;
     /* height:100%; */
+  }
+
+
   }
 }

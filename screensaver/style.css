@@ -15,6 +15,7 @@ body{
   width:100vw;
   height:100vh;
   display:flex;
+  flex-flow: column wrap;
   margin:0;
   padding:0;
 
@@ -58,28 +59,39 @@ body{
   }
   }
 
-  .black{
-    width:500px;
-    height:5%;
-    background-image: repeating-linear-gradient(to right, black, rgb(201, 204, 203) , white );
-    /* background-color: red; */
-    /* position: absolute; */
-    /* display: inline; */
+  .first{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:40%;
+    display:flex;
+    flex-flow: row wrap;
+    /* justify-content:space-around; */
+  }
+
+  .block {
+    /* border:1px solid red; */
+    width:10%;
+    height:100%;
     position:relative;
     display: inline-block;
     margin:0;
     padding:0;
-  }
+    background: repeating-linear-gradient(180deg, rgb(79, 38, 238), #000000, rgb(255, 255, 255), rgb(79, 38, 238));
+    /* background-size: 400% 400%; */
+    /* background: linear-gradient(to right, #000000, #ffffff); */
+    background-size: 100% 1000%;
+    -webkit-animation: water 1000s linear infinite;
+    /* -moz-animation: AnimationName 1s ease infinite;
+    -o-animation: AnimationName 1s ease infinite;
+    animation: AnimationName 1s ease infinite; */
+}
+@-webkit-keyframes water {
+    0%{background-position:100% 1000%}
+    100%{background-position:100% 100%}
+    /* 100%{background-position:100% 400%} */
+}
 
-  .one{
-    width:800px;
-
-  }
-
-  .two{
-    width:300px;
-  }
-
-  .three{
-    width:600px;
-  }
+.one{
+  -webkit-animation: water 100s linear infinite;
+}

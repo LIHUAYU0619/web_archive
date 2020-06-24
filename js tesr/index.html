@@ -5,52 +5,68 @@
   <title>June's class website</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-
-<body>
-  <div>
-    this is js test
-  </div>
   <script src="js.js"></script>
-
-  <script>
-
-  //
-  var x = 10;
-  var y = 50;
-
-  if (x == 10 && y > 20) {
-    console.log("If!");
-  } else if (x > 50) {
-    console.log("Else if!");
-  } else {
-    console.log("Else!");
+</head>
+<style>
+  * {
+    box-sizing: border-box;
   }
 
-  //
+  html {
+    font-size: 100%;
+  }
 
-  var item = ["bottle", "camera", "juice"];
+  body {
+    margin: 0;
+  }
 
-  var items;
-  items = ["bottle", "camera", "juice"];
-  items[1] = 8;
+  .menu{
+    position: fixed;
+    top:0;
+    right:-200px;
+    width:200px;
+    background-color: rgb(115, 181, 214);
+    height:100vh;
+    transition:transform .3s ease;
+  }
 
-  console.log(items[1]);
+  .style {
+    transform:translateX(-200px);
+  }
 
-  //
-  var item = "Bottle of water";
-  console.log(item.toUpperCase());
+  .button{
+    background-color: rgb(89, 235, 53);
+    cursor:pointer;
+    padding:1rem;
+    width:120px;
+  }
 
-  //
-  var item = ["bottle", 8, true];
-  console.log(item.join("- "));
+  .text{
+    /* display: none; */
+  }
 
-  //
-  var item = ["bottle", 6, true];
-  items.push("juice");
-  console.log(items);
 
+
+
+</style>
+
+<body>
+  <div onclick="show()" class="button">Click me...</div>
+
+  <div id="box" class="menu">
+    <!-- the boxx/ -->
+    <div class="text">
+      fsdlkfjfjifjsl;df
+    </div>
+  </div>
+
+  <script>
+    function show() {
+      var element = document.getElementById("box");
+      element.classList.toggle("style");
+    }
   </script>
 
-  </body>
-  </html>
+</body>
+
+ </html>
