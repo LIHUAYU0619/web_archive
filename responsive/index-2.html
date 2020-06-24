@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>responsive-2</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body onresize="myFunction()">
+  <div class="container-2">
+    <img src="1.png" class="one">
+    <p>Try to resize the browser window to width="700px" height="534px" </p>
+
+  <p id="demo"></p>
+
+  <p></p>
+
+
+
+  </div>
+
+
+<script>
+function myFunction() {
+  var w = window.outerWidth;
+  var h = window.outerHeight;
+  var txt = "Window size: width=" + w + ", height=" + h;
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
