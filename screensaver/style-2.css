@@ -151,18 +151,18 @@ img{
   /* position: absolute; */
   /* z-index: 0; */
   /* position:fixed; */
-  /* -webkit-filter: blur(15px); */
+  /* -webkit-filter: blur(1px); */
   /* opacity: 0.5; */
   /* box-shadow: 1px 1px 2px white, 0 0 25px white, 0 0 5px grey; */
   /* top:1px; */
-  filter: blur(8px);
-  transition: filter .8s ease-in-out;
+  filter: blur(20px);
+  transition: filter 1s ease-in-out;
 }
 
 img:hover{
     filter: blur(0px);
     /* color: white; */
-    box-shadow: 1px 1px 1px white, 0 0 20px white, 0 0 3px grey;
+    box-shadow: 1px 1px 3px white, 0 0 25px white, 0 0 6px grey;
     /* opacity: 1; */
 
 }
@@ -192,7 +192,7 @@ img:hover{
   left:0;
   margin:10px 25px;
   transition: .5s ease-in-out;
-  transition-delay: .2s;
+  transition-delay: .7s;
   /* display: none; */
 }
 
