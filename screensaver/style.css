@@ -33,7 +33,7 @@ body{
     height:20%;
     display:flex;
     flex-flow: row nowrap;
-    background-color: red;
+    /* background-color: red; */
     /* justify-content:space-around; */
   }
 
@@ -79,7 +79,6 @@ body{
   }
 
   .block {
-    background-color: red;
     /* border:1px solid red; */
     /* width:10%; */
     /* height:35%; */
@@ -87,7 +86,7 @@ body{
     /* display: inline; */
     margin:0;
     padding:0;
-    background: repeating-linear-gradient(180deg, #62cdfb, #6ed537, rgb(255, 255, 255), #62cdfb);
+    background: repeating-linear-gradient(180deg, #7ad7ff, #90e961,rgb(255, 255, 255),#7ad7ff);
     /* background-size: 400% 400%; */
     /* background: linear-gradient(to right, #000000, #ffffff); */
     background-size: 100% 1000%;
@@ -172,6 +171,7 @@ img:hover{
   /* background-color: rgb(255, 255, 255); */
   position: absolute;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .tu:hover .time{

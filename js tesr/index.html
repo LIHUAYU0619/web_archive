@@ -6,6 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="js.js"></script>
+
 </head>
 <style>
   * {
@@ -39,11 +40,19 @@
     cursor:pointer;
     padding:1rem;
     width:120px;
+    /* height:90px; */
+    border-radius: 20px
   }
 
   .text{
     /* display: none; */
   }
+
+  .marquee {
+  width: 100vw; /* the plugin works for responsive layouts so width is not necessary */
+  overflow: hidden;
+  border:1px solid #ccc;
+}
 
 
 
@@ -60,12 +69,12 @@
     </div>
   </div>
 
-  <script>
-    function show() {
-      var element = document.getElementById("box");
-      element.classList.toggle("style");
-    }
-  </script>
+  <div class='marquee'>Lorem ipsum dolor sit amet, consectetur adipiscing elit END. Lorem ipsum dolor sit amet, consectetur adipiscing elit END. Lorem ipsum dolor sit amet, consectetur adipiscing elit END.</div>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.marquee.min.js"></script>
+
+  <script src="js/functions.js"></script>
 
 </body>
 

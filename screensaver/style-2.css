@@ -155,12 +155,12 @@ img{
   /* opacity: 0.5; */
   /* box-shadow: 1px 1px 2px white, 0 0 25px white, 0 0 5px grey; */
   /* top:1px; */
-  filter: blur(20px);
+  -webkit-filter: blur(20px);
   transition: filter 1s ease-in-out;
 }
 
 img:hover{
-    filter: blur(0px);
+    -webkit-filter: blur(0px);
     /* color: white; */
     box-shadow: 1px 1px 3px white, 0 0 25px white, 0 0 6px grey;
     /* opacity: 1; */
@@ -172,6 +172,7 @@ img:hover{
   /* background-color: rgb(255, 255, 255); */
   position: absolute;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .tu:hover .time{
@@ -197,3 +198,5 @@ img:hover{
 }
 
 /* 2 */
+
+@medium screen
