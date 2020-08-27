@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(162, 174, 175);
+  font-family: courier;
+  font-size: 14px;
+}
+
+a{
+  color:black;
+  font-family:sans-serif;
+}
+
+.body{
+  display: flex;
+  justify-content: center;
+}
+
+.text{
+  width:38%;
+  margin-top: 10px;
+  /* display: flex;
+  justify-content: center; */
+}

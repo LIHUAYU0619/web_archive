@@ -81,6 +81,7 @@ body{
 
 .right-all{
   overflow-y: scroll;
+  /* background-image: linear-gradient(white, yellow); */
 }
 
 .small{
@@ -122,4 +123,11 @@ body{
 hr{
    padding: 0px;
    margin: 0px;
+  }
+
+
+  .top{
+    height:100%;
+
+
   }
