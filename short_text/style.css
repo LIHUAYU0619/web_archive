@@ -18,8 +18,9 @@ a{
 }
 
 .text{
-  width:38%;
-  margin-top: 10px;
+  /* width:38%; */
+  width:560px;
+  margin: 10px;
   /* display: flex;
   justify-content: center; */
 }
