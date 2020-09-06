@@ -25,6 +25,7 @@ button{
   /* background-color: pink; */
   display: flex;
   flex-direction: row;
+  flex-wrap:wrap;
 }
 
 .left{
