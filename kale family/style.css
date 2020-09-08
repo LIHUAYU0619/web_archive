@@ -1,0 +1,24 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin:10px;
+  background-color: rgb(77, 175, 53);
+}
+
+p{
+  margin:0;
+}
+
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flowerall{
+  width:30%;
+  margin:30px;
+
+}
