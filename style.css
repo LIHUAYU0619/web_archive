@@ -3,15 +3,20 @@
 }
 
 body{
-  background-color: rgb(196, 201, 205);
+  /* background-color: rgb(196, 201, 205); */
+  background-color: rgb(244, 244, 244);
+  /* background-color: rgb(71, 71, 71); */
   /* background-color: rgb(162, 174, 175); */
   color:rgb(41, 41, 41);
   /* width:100vw; */
   /* height:100vh; */
   /* padding:30px; */
-  margin:3em 4em 4em 4em;
-  font-family: 'MuseoModerno', cursive;
-  font-size: 10px;
+  margin:2em 4em 4em 4em;
+  /* font-family: 'MuseoModerno', cursive; */
+  font-family: helvetica;
+  font-size: 11px;
+  /* border:1px black solid; */
+  /* padding:1 em; */
 }
 
 /* hover */
@@ -36,7 +41,8 @@ ol{
 
 ol li:hover{
     /* color:rgb(182, 88, 255); */
-    background-color:rgb(216, 166, 255);
+    /* background-color:rgb(216, 166, 255); */
+    /* background-color:rgb(180, 170, 187); */
 }
 
 ul{
@@ -46,7 +52,7 @@ ul{
 }
 
 ul li:hover{
-  background-color:rgb(166, 255, 167);
+  /* background-color:rgb(166, 255, 167); */
 }
 
 li{
