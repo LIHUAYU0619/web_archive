@@ -1,0 +1,171 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+  /* cursor:url("img/cat.ico"),auto; */
+  /* cursor:url("img/cat.ico"),auto; */
+}
+
+body{
+  margin:0;
+  padding:0;
+  /* cursor: url("img/98072.png"); */
+  cursor:url("img/cursor (3).cur"),auto;
+  font-family: "cat-font";
+}
+
+a{
+  color:black;
+  text-decoration: none;
+}
+
+
+@font-face {
+    font-family:"cat-font";
+    src:url("Coraline's Cat.otf");
+}
+
+
+.the-screen{
+  margin:0;
+  padding:0;
+  /* width:100%; */
+  /* height:100%; */
+}
+
+.bg-img{
+  position: absolute;
+  width:1680px;
+  z-index: -99;
+  /* height:100%; */
+}
+
+.cat-img{
+  position:absolute;
+  width:100px;
+  right:280px;
+  top:750px;
+
+}
+
+.togglelink{
+  /* font-size: 2em; */
+  height: 60px;
+  width: 60px;
+  background-color: red;
+  position:absolute;
+  border-radius: 50%;
+  opacity: 10%;
+  box-shadow: 0 0 5px 10px red;
+  transition: 1s ease;
+}
+
+.toggle {
+    margin:40px;
+    padding:20px;
+    display: none;
+    width: 800px;
+    position: absolute;
+    /* height: 100px; */
+    /* color:white; */
+    font-size: 14px;
+    background-color: white;
+    /* border: 1px; */
+    box-shadow: 0 0 10px 5px red;
+    /* background-color: black; */
+    /* position: fixed; */
+    /* left: 50%; */
+    /* top: 50%; */
+    /* margin-left: -50px; */
+    /* margin-top: -50px; */
+    opacity: 80%;
+    transition: 2s ease;
+
+  }
+
+.diary-dot{
+
+  left:720px;
+  top:750px;
+  text-align: left;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+
+}
+
+.togglelink:hover{
+  opacity: 100%;
+}
+
+
+.cat-drawing{
+  position:absolute;
+  width:100px;
+  left:650px;
+  bottom:18px;
+}
+
+.photo{
+  left:350px;
+  top:450px;
+}
+
+
+.photo:hover + .photo-t {
+  display: block;
+  position: fixed;
+}
+
+.hover-text{
+  color:red;
+  padding:10px;
+  display: none;
+  position: absolute;
+  font-size: 14px;
+  background-color: white;
+  opacity: 80%;
+  /* margin:10px; */
+}
+
+.chair{
+  bottom:80px;
+  right:300px;
+}
+
+.chair:hover + .chair-t {
+  display: block;
+  position: fixed;
+}
+
+.bed{
+  bottom:-200px;
+  left:400px;
+}
+
+.bed:hover + .bed-t {
+  display: block;
+  position: fixed;
+}
+
+.selfie{
+  top:100px;
+  right:200px;
+}
+
+.selfie:hover + .selfie-photo  {
+  display: block;
+  position: fixed;
+}
+
+.selfie-photo{
+  position: absolute;
+  right:700px;
+  width:600px;
+  display:none;
+border: 1px;
+  z-index: 999;
+  /* display: none; */
+}

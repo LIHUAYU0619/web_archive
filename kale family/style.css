@@ -5,6 +5,7 @@
 body{
   margin:10px;
   background-color: rgb(77, 175, 53);
+  font-family: 'Lato', sans-serif;
 }
 
 p{
@@ -20,5 +21,4 @@ p{
 .flowerall{
   width:30%;
   margin:30px;
-
 }
