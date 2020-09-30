@@ -81,8 +81,11 @@ a{
     /* margin-top: -50px; */
     opacity: 80%;
     transition: 2s ease;
+    /* -webkit-overflow-scrolling:scroll; */
+
 
   }
+
 
 .diary-dot{
 
