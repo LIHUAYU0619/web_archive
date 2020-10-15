@@ -4,10 +4,12 @@
 
 body{
   /* background-color: rgb(196, 201, 205); */
-  background-color: rgb(244, 244, 244);
+  background-color: rgb(208, 208, 208);
+  /* background-color:rgb(185, 203, 204) ; */
   /* background-color: rgb(71, 71, 71); */
   /* background-color: rgb(162, 174, 175); */
   color:rgb(41, 41, 41);
+  /* color:rgb(94, 85, 111); */
   /* width:100vw; */
   /* height:100vh; */
   /* padding:30px; */
@@ -22,13 +24,15 @@ body{
 /* hover */
 
 a{
-  color:rgb(41, 41, 41);
+  /* color:rgb(41, 41, 41); */
+  color:inherit;
   /* color:black; */
   text-decoration: none;
 }
 
 a:hover{
   text-decoration: underline;
+  /* color:rgba(255, 245, 0, 1); */
 }
 
 /* list style */
