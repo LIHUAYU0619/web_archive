@@ -3,7 +3,8 @@
 }
 
 body {
-  background-color: rgb(14, 98, 103);
+  /* background-color: rgb(14, 98, 103); */
+  background-color: rgb(116, 139, 83);
   /* font-family: 'Lato', sans-serif; */
   /* font-family: serif; */
   font-family: lft-etica-mono, sans-serif;
@@ -37,9 +38,9 @@ p {
 }
 
 .images {
-  background-color: rgb(244, 23, 114);
+  background-color: rgb(232, 200, 213);
   margin-right: 10px;
-  height: 40vh;
+  height: 35vh;
 }
 
 .punc {
