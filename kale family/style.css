@@ -1,24 +1,63 @@
-*{
+* {
   box-sizing: border-box;
 }
 
-body{
-  margin:10px;
-  background-color: rgb(77, 175, 53);
-  font-family: 'Lato', sans-serif;
+body {
+  background-color: rgb(14, 98, 103);
+  /* font-family: 'Lato', sans-serif; */
+  /* font-family: serif; */
+  font-family: lft-etica-mono, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.9em;
 }
 
-p{
-  margin:0;
+p {
+  margin: 0;
+  color: rgb(255, 255, 255);
 }
 
-.top{
+.body-box {
+  position: absolute;
+  margin: 10px;
+  /* background-color: rgb(227, 206, 171); */
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  /* flex-wrap: nowrap; */
 }
 
-.flowerall{
-  width:30%;
-  margin:30px;
+.img-box {
+  position: relative;
+  margin: 10px 20px 10px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  /* background-color: rgb(38, 199, 215); */
+  /* height:40vh; */
+}
+
+.images {
+  background-color: rgb(244, 23, 114);
+  margin-right: 10px;
+  height: 40vh;
+}
+
+.punc {
+  position: relative;
+  margin-right: 20px;
+  width: 20px;
+  /* background-color: rgb(238, 159, 86); */
+}
+
+.punc span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  /* background-color: red; */
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+}
+
+.text-box{
+  margin-bottom: 50px;
 }
