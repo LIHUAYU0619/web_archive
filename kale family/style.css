@@ -11,11 +11,12 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 0.9em;
+  color: rgb(255, 255, 255);
 }
 
 p {
   margin: 0;
-  color: rgb(255, 255, 255);
+
 }
 
 .body-box {
@@ -61,4 +62,13 @@ p {
 
 .text-box{
   margin-bottom: 50px;
+}
+
+.text-box span{
+  display: inline-block;
+  padding:0.5em 0;
+  position: relative;
+  border: dashed white;
+  border-width: 1px 0 1px 0;
+  /* background-color: rgb(205, 162, 50); */
 }
