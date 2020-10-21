@@ -4,14 +4,15 @@
 
 body {
   /* background-color: rgb(14, 98, 103); */
-  background-color: rgb(116, 139, 83);
+  background-color: rgb(205, 255, 250);
   /* font-family: 'Lato', sans-serif; */
   /* font-family: serif; */
   font-family: lft-etica-mono, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 0.9em;
-  color: rgb(255, 255, 255);
+  /* color: rgb(255, 255, 255); */
+  color:rgb(44, 64, 252);
 }
 
 p {
@@ -56,7 +57,7 @@ p {
   bottom: 0;
   left: 0;
   /* background-color: red; */
-  color: rgb(255, 255, 255);
+  /* color: rgb(255, 255, 255); */
   font-size: 2em;
 }
 
@@ -68,7 +69,7 @@ p {
   display: inline-block;
   padding:0.5em 0;
   position: relative;
-  border: dashed white;
+  border: dashed rgb(44, 64, 252);
   border-width: 1px 0 1px 0;
   /* background-color: rgb(205, 162, 50); */
 }
